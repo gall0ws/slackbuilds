@@ -6,6 +6,7 @@ PKGNAM=sof
 VERSION=${VERSION:-1.6.1}
 ARCH=noarch
 BUILD=${BUILD:-1}
+TAG=${TAG:-gal}
 TMP=${TMP:-/tmp}
 PKG=$TMP/package-$PKGNAM
 
@@ -31,4 +32,4 @@ mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
-/sbin/makepkg -l y -c n $TMP/$PKGNAM-$VERSION-$ARCH-$BUILD.txz
+/sbin/makepkg -l y -c n $TMP/$PKGNAM-$VERSION-$ARCH-$BUILD$TAG.txz
