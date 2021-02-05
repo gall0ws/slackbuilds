@@ -16,4 +16,4 @@ doas: file has a simple syntax and it is smaller, requiring less effort to
 doas: audit the code. This makes it harder for both admins and coders to
 doas: make mistakes that potentially open security holes in the system.
 doas:
-doas:
+doas: https://github.com/slicer69/doas

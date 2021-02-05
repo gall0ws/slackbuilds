@@ -1,6 +1,6 @@
 #!/bin/sh
 PRGNAM=doas
-VERSION=${VERSION:-6.3}
+VERSION=${VERSION:-6.3p2}
 BUILD=${BUILD:-1}
 TAG=${TAG:-gal}
 
